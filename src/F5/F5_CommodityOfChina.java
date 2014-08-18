@@ -9,7 +9,7 @@ import android.widget.TextView;
 import StockMasterBase.F5StockActivity;
 import StockMasterBase.StockActivity;
 
-//期货/期货即时走势/国内商品123
+//期货/期货即时走势/国内商品
 public class F5_CommodityOfChina extends StockActivity {
 
 	public void testCase001() throws Exception {
