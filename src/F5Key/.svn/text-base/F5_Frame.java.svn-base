@@ -1,0 +1,21 @@
+//测试点：市场
+package F5Key;
+
+import com.robotium.solo.Solo;
+import StockMasterBase.MarketStockActivity;
+import StockMasterBase.StockActivity;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+//其他/市场行情框架
+public class F5_Frame extends StockActivity {
+
+	// 覆盖安装K线走势校验
+	public void testCase001() throws Exception {
+		CaseName = "覆盖安装K线走势校验：无法校验";
+		CaseCheck = this.EqualsChecked(false);
+		System.out.println(CaseCheck);
+
+	}
+
+}
